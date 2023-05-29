@@ -30,8 +30,8 @@ export class User {
   dateOfBirthday: string;
 
   @Column()
-  location: string;
+  photo: string;
 
   @Column()
-  photo: string;
+  location: string;
 }
