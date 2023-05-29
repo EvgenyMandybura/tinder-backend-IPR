@@ -27,11 +27,11 @@ export class User {
   gender: string;
 
   @Column()
+  location: string;
+
+  @Column()
   dateOfBirthday: string;
 
   @Column()
   photo: string;
-
-  @Column()
-  location: string;
 }
