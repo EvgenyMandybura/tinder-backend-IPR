@@ -15,7 +15,7 @@ import { PassportModule } from '@nestjs/passport';
       port: 3306,
       username: 'root',
       password: 'password',
-      database: 'tinder',
+      database: 'tinder_api',
       entities: [User],
       synchronize: true,
     }),
